@@ -1,0 +1,51 @@
+.App-page{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App-poke_flex{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.App-poke_list{
+  list-style: none;
+  flex-basis: 200px;
+  border: 1px solid grey;
+  margin: 0 auto;
+  background-color: #AED6F1;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+
+.App-poke_item{
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  position: relative;
+  left: -25px;
+  bottom: 10px;
+  background-color: grey;
+  color: white;
+  border-radius: 25px;
+  padding: 7px 12px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.border{
+  text-transform: capitalize;
+  padding: 7px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+
+
+
+

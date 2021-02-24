@@ -3,7 +3,7 @@ import Pokemon from './Pokemon';
 const Pokelist = (props) => {
   const pokemons = props.list.map((onePokemon) => {
     return (
-       <li key={onePokemon.id}>
+       <li key={onePokemon.id} className="App-poke_list">
           <Pokemon pokemonItem={onePokemon} />
        </li>
         )
@@ -12,7 +12,7 @@ const Pokelist = (props) => {
   return (
    
     <div>
-      <ul>
+      <ul className="App-poke_flex">
        {pokemons}
       </ul>
     </div>
