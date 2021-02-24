@@ -11,6 +11,7 @@ class App extends React.Component {
     console.log(pokeInfo[0].id);
     return (
       <div className="page">
+        <h1>Mi lista de pokemons</h1>
         <Pokelist list={pokeInfo} />
       </div>
     );

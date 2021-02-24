@@ -1,21 +1,21 @@
 
 const Pokemon = (props) => {
    
-    // const pokemon = props.pokemonItem.map((types) => {
-    //     return (
-    //         <li key={types.id}>
-    //             {types} 
-    //         </li>
-    //     )
-    // } 
-    // );    
+    const pokemon = props.pokemonItem.types.map((type, i) => {
+        return (
+            <li key={i}>
+                {type} 
+            </li>
+        )
+    } 
+    );    
   
   return (
       <article>
-          <img src={props.pokemonItem.url} alt={props.pokemonItem.name}></img>
+          <img src={props.pokemonItem.url} alt={props.pokemonItem.name} />
           <h2>{props.pokemonItem.name}</h2>
           <ul>
-              {/* {pokemon} */}
+              {pokemon}
           </ul>
       </article>
 
