@@ -1,8 +1,7 @@
 import React from 'react';
 import pokeInfo from '../data/info.json';
-import '../style/App.css';
 import Pokelist from './Pokelist';
-
+import '../style/App.css';
 
 class App extends React.Component {
   
