@@ -13,6 +13,7 @@
 }
 
 .App-poke_list{
+  width: 80px;
   list-style: none;
   flex-basis: 200px;
   border: 1px solid grey;
@@ -20,6 +21,7 @@
   background-color: #AED6F1;
   border-radius: 15px;
   margin-bottom: 20px;
+
 }
 
 
@@ -28,7 +30,7 @@
   text-transform: uppercase;
   font-size: 10px;
   position: relative;
-  left: -25px;
+  left: -15px;
   bottom: 10px;
   background-color: grey;
   color: white;
